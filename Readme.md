@@ -1,53 +1,27 @@
 # React Custom Hooks
 
-This repository contains a collection of custom React hooks that you can use in your projects to enhance functionality and streamline development.
+This repository contains a collection of custom React hooks implementation that you can use in your projects to enhance functionality and streamline development.
 
 ## Included Hooks
 
-- [React Custom Hooks](#react-custom-hooks)
-  - [Included Hooks](#included-hooks)
-    - [1. useAsync](#1--useasync)
-    - [2. useIdle](#2--useidle)
-    - [3. useFocus](#3--usefocus)
-    - [4. usePrevious](#4--useprevious)
-    - [5. useLocalStorage](#5--uselocalstorage)
-    - [6. useDebounce](#6--usedebounce)
-    - [7. useCopyToClipboard](#7--usecopytoclipboard)
-    - [8. useFetch](#8--usefetch)
-    - [9. useToggle](#9--usetoggle)
+- <a name="useAsync"></a> **useAsync**: Simplify asynchronous operations with loading, error, and value states.
 
-### 1. <a name="useAsync"></a> useAsync
+- <a name="useIdle"></a> **useIdle**: Detect user inactivity within a web application for implementing features like automatic logout.
 
-The useAsync hook simplifies asynchronous operations in React by providing loading, error, and value states, useful for various tasks like fetching data from an API or handling form submissions.
+- <a name="useFocus"></a> **useFocus**: Track the focus state of DOM elements within React components.
 
-### 2. <a name="useIdle"></a> useIdle
+- <a name="usePrevious"></a> **usePrevious**: Store and persist the previous state between re-renders for comparison purposes.
 
-The useIdle hook in React detects user inactivity within a web application and returns a boolean value based on a defined amount of time, useful for implementing features like automatic logout or displaying notifications.
+- <a name="useLocalStorage"></a> **useLocalStorage**: Synchronize component state with local storage for data persistence.
 
-### 3. <a name="useFocus"></a> useFocus
+- <a name="useDebounce"></a> **useDebounce**: Add debounce functionality to delay function execution and limit frequency.
 
-The useFocus hook tracks the focus state of a DOM element in React components.
+- <a name="useThrottle"></a> **useThrottle**: Manage execution frequency by ensuring updates occur at most every specified interval.
 
-### 4. <a name="usePrevious"></a> usePrevious
+- <a name="useCopyToClipboard"></a> **useCopyToClipboard**: Copy text to the clipboard.
 
-The usePrevious hook stores and persists the previous state between re-renders, useful for scenarios requiring comparison between current and previous values.
+- <a name="useFetch"></a> **useFetch**: Simplify data fetching and state management with consistent loading, success, and error states.
 
-### 5. <a name="useLocalStorage"></a> useLocalStorage
+- <a name="useToggle"></a> **useToggle**: Efficiently toggle between two states for various UI interactions.
 
-The useLocalStorage hook synchronizes component state with local storage, facilitating data persistence such as storing theme preferences.
-
-### 6. <a name="useDebounce"></a> useDebounce
-
-The useDebounce hook adds debounce functionality to React components, delaying function execution to limit frequency, useful for scenarios like searching with input elements.
-
-### 7. <a name="useCopyToClipboard"></a> useCopyToClipboard
-
-The useCopyToClipboard hook efficiently copies text to the clipboard, utilizing the modern navigator.clipboard.writeText method when available.
-
-### 8. <a name="useFetch"></a> useFetch
-
-The useFetch hook simplifies data fetching and state management in React components, providing a consistent pattern for handling loading, success, and error states with fetch or axios.
-
-### 9. <a name="useToggle"></a> useToggle
-
-The useToggle hook efficiently toggles between two states, facilitating actions like showing/hiding modals, expanding/collapsing text, or toggling checkboxes.
+- <a name="useWindowScroll"></a> **useWindowScroll**: Track and manipulate scroll position within React components.

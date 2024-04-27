@@ -8,6 +8,8 @@ import AsyncComponent from "./components/AsyncComponent";
 import ToggleTheme from "./components/ToggleTheme";
 import FocusComponent from "./components/FocusComponent";
 import CheckActivity from "./components/CheckActivity";
+import ThrottleComponent from "./components/ThrottleComponent";
+import WindowScrollComponent from "./components/WindowScrollComponent";
 
 export default function App() {
   return (
@@ -21,7 +23,9 @@ export default function App() {
       {/* <AsyncComponent /> */}
       {/* <ToggleTheme /> */}
       {/* <FocusComponent /> */}
-      <CheckActivity />
+      {/* <CheckActivity /> */}
+      {/* <ThrottleComponent /> */}
+      <WindowScrollComponent />
     </div>
   );
 }
