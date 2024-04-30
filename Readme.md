@@ -1,4 +1,4 @@
-# React Custom Hooks
+# React Custom Hooks Underlying Implementation
 
 This repository contains a collection of custom React hooks implementation that you can use in your projects to enhance functionality and streamline development.
 
@@ -25,3 +25,5 @@ This repository contains a collection of custom React hooks implementation that 
 - <a name="useToggle"></a> **useToggle**: Efficiently toggle between two states for various UI interactions.
 
 - <a name="useWindowScroll"></a> **useWindowScroll**: Track and manipulate scroll position within React components.
+
+- <a name="useOnClickOutside"></a> **useOnClickOutside**: Useful for detecting clicks outside a specific component.
