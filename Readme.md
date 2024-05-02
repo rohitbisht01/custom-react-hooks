@@ -27,5 +27,9 @@ This repository contains a collection of custom React hooks implementation that 
 - <a name="useWindowScroll"></a> **useWindowScroll**: Track and manipulate scroll position within React components.
 
 - <a name="useOnClickOutside"></a> **useOnClickOutside**: Useful for detecting clicks outside a specific component.
--
+
 - <a name="useArray"></a> **useArray**: Useful for implementing array functionality and methods.
+
+- <a name="useResponsive"></a> **useResponsive**: It returns the device type (isMobile, isTablet, isDesktop) depending upon the window width.
+
+- <a name="useScript"></a> **useScript**: It is useful for dynamically loading external JavaScript scripts into a React component.

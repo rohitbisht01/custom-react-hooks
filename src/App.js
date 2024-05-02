@@ -10,6 +10,9 @@ import FocusComponent from "./components/FocusComponent";
 import CheckActivity from "./components/CheckActivity";
 import ThrottleComponent from "./components/ThrottleComponent";
 import WindowScrollComponent from "./components/WindowScrollComponent";
+import CheckApplicationResponsive from "./components/CheckApplicationResponsive";
+import CheckOnScreen from "./components/CheckOnScreen";
+import LoadScript from "./components/LoadScript";
 
 export default function App() {
   return (
@@ -25,7 +28,10 @@ export default function App() {
       {/* <FocusComponent /> */}
       {/* <CheckActivity /> */}
       {/* <ThrottleComponent /> */}
-      <WindowScrollComponent />
+      {/* <WindowScrollComponent /> */}
+      {/* <CheckApplicationResponsive /> */}
+      {/* <CheckOnScreen /> */}
+      {/* <LoadScript /> */}
     </div>
   );
 }
