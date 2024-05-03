@@ -13,6 +13,7 @@ import WindowScrollComponent from "./components/WindowScrollComponent";
 import CheckApplicationResponsive from "./components/CheckApplicationResponsive";
 import CheckOnScreen from "./components/CheckOnScreen";
 import LoadScript from "./components/LoadScript";
+import MediumSelectionText from "./components/MediumSelectionText";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       {/* <CheckApplicationResponsive /> */}
       {/* <CheckOnScreen /> */}
       {/* <LoadScript /> */}
+      <MediumSelectionText />
     </div>
   );
 }

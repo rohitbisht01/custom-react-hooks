@@ -33,3 +33,7 @@ This repository contains a collection of custom React hooks implementation that 
 - <a name="useResponsive"></a> **useResponsive**: It returns the device type (isMobile, isTablet, isDesktop) depending upon the window width.
 
 - <a name="useScript"></a> **useScript**: It is useful for dynamically loading external JavaScript scripts into a React component.
+
+- <a name="Highlight Text on Selection"></a> **Highlight Text on Selection**: Hook in React that will return the selected text on the
+  web page and the coordinates of the selection so that a popup can be
+  shown to Tweet the selected text just like Medium.
